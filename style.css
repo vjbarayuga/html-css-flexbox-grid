@@ -6,16 +6,23 @@ body {
 }
 
 .header {
-  padding: 0 25px;
+  /* padding-left: 25px;
+  padding-right: 25px; */
+  padding: 0 25px 0 25px;
   background-color: #283593;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.logo {
+  width: 90px;
+  height: auto;
+}
+
 .nav a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -28,9 +35,4 @@ body {
 
 .nav li {
   margin-left: 20px;
-}
-
-.logo {
-  width: 90px;
-  height: auto;
 }
